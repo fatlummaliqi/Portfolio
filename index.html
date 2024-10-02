@@ -34,10 +34,34 @@
         a {
             text-decoration: none;
         }
+
+        @media (max-width:480px)  {
+            body {
+                font-size: 14px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .foo {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .foo span {
+                margin: 0 !important;
+                padding: 0 !important;
+                border: none !important;
+            }
+        }
     </style>
 <body>
-    <h1>Fatlum Maliqi</h1>
-    <p>Ferizaj, Republic of Kosovo • 00383-43-842-249 <br><a href="mailto:hello@fatlummaliqi.com">hello@fatlummaliqi.com</a></p>
+    <h1 style="margin-bottom: 36px;">Fatlum Maliqi</h1>
 
     <h2 style="margin-bottom:8px;">Summary</h2>
     <p style="margin-top: 0px;margin-bottom:32px;">An exponentially growing software developer with 2+ years of successful experience working at a leading internet services company in Central Europe.</p>
@@ -46,15 +70,15 @@
     <p style="margin-top: 0px;margin-bottom:32px;">Problem Solving • Distributed Systems • RESTful Sense • Caching • Event Streaming • Relational databases • Docker</p>
 
     <h2 style="margin-bottom:8px;">Professional history</h2>
-    <p style="margin: 0 0 4px 0;"><b>Gjirafa Inc • Software developer</b> | June 2024 - Present</p>
-    <p style="margin: 0 0 4px 0;"><b>Gjirafa Inc • Back-end developer</b> | April 2023 - June 2024</p>
+    <p style="margin: 0 0 4px 0;" class="foo"><b>Gjirafa Inc • Software developer</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">June 2024 - Present</span></p>
+    <p style="margin: 0 0 4px 0;" class="foo"><b>Gjirafa Inc • Back-end developer</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">April 2023 - June 2024</span></p>
     <ul style="margin: 0 0 16px 0;">
         <li>Developed and maintained server-side components</li>
         <li>Delivered scalable and secure back-end systems</li>
         <li>Wrote clean, efficient and well-documented code</li>
     </ul>
 
-    <p style="margin: 0 0 4px 0;"><b>Starlabs • Back-end developer intern</b> | Mars 2022 - April 2022</p>
+    <p style="margin: 0 0 4px 0;" class="foo"><b>Starlabs • Back-end developer intern</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">Mars 2022 - April 2022</span></p>
     <ul style="margin: 0 0 32px 0;">
         <li>Developed features on existing MVC web application</li>
         <li>Participated in quality assurance and automated testing process</li>
