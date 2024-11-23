@@ -22,82 +22,109 @@
     
     <link rel="canonical" href="https://fatlummaliqi.com">
 
-    <style>
-         body {
-            line-height: 24px;
-            padding: 0 12px;
-            margin: 50px auto;
-            max-width: 888px;
-            font-family: "Poppins", sans-serif;
-        }
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-        a {
-            text-decoration: none;
-        }
+    <body class="px-2 lg:px-0 my-8 mx-auto max-w-4xl">
+        <div class="flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl lg:text-4xl font-bold">Fatlum Maliqi</h1>        
+                <p class="lg:text-xl">Software developer</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <a href="https://www.linkedin.com/in/fatlum-maliqi-bb8976204/" target="_blank" class="text-2xl"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/fatlummaliqi" target="_blank" class="text-2xl"><i class="fa-brands fa-github"></i></a>
+                <a href="/static/Fatlum_Maliqi.pdf" target="_blank" class="ml-4 border border rounded px-2 py-1 text-xs lg:text-base">Resume</a>
+            </div>
+        </div>
 
-        @media (max-width:480px)  {
-            body {
-                font-size: 14px;
-            }
+        <div class="flex flex-col gap-8 mt-8">
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">About</h3>
+                <p class="text-xs lg:text-base">Highly skilled Software developer, adept at working in agile environments and collaborating with cross-functional teams to deliver high-quality software solutions. Strong problem-solving abilities with a focus on scalability, performance, and user experience. Passionate about continuous learning and staying current with emerging technologies to deliver innovative solutions that meet both business and technical needs.</p>
+            </div>
 
-            h1 {
-                font-size: 24px;
-            }
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">Experience</h3>
+                <div class="mt-2">
+                    <div class="flex justify-between items-center">
+                        <p class="font-bold text-sm lg:text-lg">Software developer</p>
+                        <p class="text-xs lg:text-base">Mars 2023 - Present</p>
+                    </div>
+                    <a target="_blank" href="https://aboutgjirafa.com/" class="underline text-xs lg:text-base">Gjirafa Inc</a>
+                    <ul class="mt-1 list-disc pl-5 text-xs lg:text-base">
+                        <li>Developed scalable and secure server-side components seamlessly integrated with other services in a distributed architecture.</li>
+                        <li>Refactored and improved the legacy codebase to utilize new .NET features.</li>
+                        <li>Established reliable communication between services using RESTful APIs, event streaming platforms, and WebSockets.</li>
+                        <li>Contributed to the client-side development of an MVC application, delivering a seamless UI and enhanced UX.</li>
+                        <li>Designed database schemas aligned with business requirements.</li>
+                    </ul>
+                </div>
+                <div class="mt-2">
+                    <div class="flex justify-between items-center">
+                        <p class="font-bold text-sm lg:text-lg">Student fellow</p>
+                        <p class="text-xs lg:text-base">May 2022 - March 2023</p>
+                    </div>
+                    <a target="_blank" href="https://life.gjirafa.com/" class="underline text-xs lg:text-base">Life from Gjirafa</a>
+                    <ul class="mt-1 list-disc pl-5 text-xs lg:text-base">
+                        <li>Developed scalable and secure server-side components seamlessly integrated with other services in a distributed architecture.</li>
+                        <li>Refactored and improved the legacy codebase to utilize new .NET features.</li>
+                        <li>Established reliable communication between services using RESTful APIs, event streaming platforms, and WebSockets.</li>
+                        <li>Contributed to the client-side development of an MVC application, delivering a seamless UI and enhanced UX.</li>
+                        <li>Designed database schemas aligned with business requirements.</li>
+                    </ul>
+                </div>
+            </div>
 
-            h2 {
-                font-size: 18px;
-            }
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">Education</h3>
+                <p class="font-bold text-sm lg:text-lg">Bachelor of Computer Science</p>
+                <p class="text-xs lg:text-base">UNI - Universum International College</p>
+                <p class="text-xs lg:text-base">2020-2023</p>
+            </div>
 
-            .foo {
-                display: flex;
-                flex-direction: column;
-            }
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">Tech skills</h3>
+                <ul class="list-disc pl-5 text-xs lg:text-base">
+                    <li>Proficient in the .NET platform</li>
+                    <li>Relational databases (SSMS & PSQL)</li>
+                    <li>In-memory & Redis caching</li>
+                    <li>Apache Kafka</li>
+                    <li>Docker</li>
+                    <li>Vanilla JS & JQuery</li>
+                </ul>
+            </div>
 
-            .foo span {
-                margin: 0 !important;
-                padding: 0 !important;
-                border: none !important;
-            }
-        }
-    </style>
-<body>
-    <h1 style="margin-bottom: 36px;">Fatlum Maliqi</h1>
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">Certifications</h3>
+                <ul class="list-disc pl-5 text-xs lg:text-base">
+                    <li>Docker Certified Associate</li>
+                    <li>Agile Certified Practitioner</li>
+                </ul>
+            </div>
 
-    <h2 style="margin-bottom:8px;">Summary</h2>
-    <p style="margin-top: 0px;margin-bottom:32px;">An exponentially growing software developer with 2+ years of successful experience working at a leading internet services company in Central Europe.</p>
+            <div>
+                <h3 class="lg:text-2xl font-semibold border-b border-gray-200 pb-1 mb-1">Languages</h3>
+                <ul class="list-disc pl-5 text-xs lg:text-base">
+                    <li>Albanian</li>
+                    <li>English</li>
+                </ul>
+            </div>
+        </div>
 
-    <h2 style="margin-bottom:8px;">Core competences</h2>
-    <p style="margin-top: 0px;margin-bottom:32px;">Problem Solving • Distributed Systems • RESTful Sense • Caching • Event Streaming • Relational databases • Docker</p>
-
-    <h2 style="margin-bottom:8px;">Professional history</h2>
-    <p style="margin: 0 0 4px 0;" class="foo"><b>Gjirafa Inc • Software developer</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">June 2024 - Present</span></p>
-    <p style="margin: 0 0 4px 0;" class="foo"><b>Gjirafa Inc • Back-end developer</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">April 2023 - June 2024</span></p>
-    <ul style="margin: 0 0 16px 0;">
-        <li>Developed and maintained server-side components</li>
-        <li>Delivered scalable and secure back-end systems</li>
-        <li>Wrote clean, efficient and well-documented code</li>
-    </ul>
-
-    <p style="margin: 0 0 4px 0;" class="foo"><b>Starlabs • Back-end developer intern</b> <span style="border-left:1px solid black;margin-left: 8px;padding-left: 8px;">Mars 2022 - April 2022</span></p>
-    <ul style="margin: 0 0 32px 0;">
-        <li>Developed features on existing MVC web application</li>
-        <li>Participated in quality assurance and automated testing process</li>
-    </ul>
-
-    <h2 style="margin-bottom:8px;">Educational history</h2>
-    <p style="margin: 0 0 16px 0;"><b>Universum International College</b> <br>Graduated with a bachelor’s degree in Computer Science</p>
-    <p style="margin: 0 0 32px 0;"><b>Life from Gjirafa</b> <br>Graduated with a certificate in non-formal training</p>
-
-    <a style="text-decoration: none;" href="https://www.linkedin.com/in/fatlum-maliqi-bb8976204" target="_blank">
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
-            <path d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"></path>
-        </svg>
-    </a>
-    <a style="text-decoration: none;margin-left:8px;" href="https://github.com/fatlummaliqi" target="_blank">
-        <svg height="22" width="22" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
-            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
-        </svg>
-    </a>
-
-</body>
+        <footer class="mt-24 flex flex-col lg:flex-row justify-between lg:items-center gap-2">
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-phone"></i>
+                <p class="text-xs lg:text-base">+383 34 842 249</p>
+            </div>
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <a class="text-xs lg:text-base" href="mailto:hello@fatlummaliqi.com">hello@fatlummaliqi.com</a>
+            </div>
+            <div class="flex gap-2 items-center">
+                <i class="fa-solid fa-house"></i>
+                <p class="text-xs lg:text-base">Republic of Kosovo</p>
+            </div>
+        </footer>
+    </body>
 </html>
